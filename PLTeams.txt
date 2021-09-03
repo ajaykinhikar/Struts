@@ -1,0 +1,59 @@
+create table plteams
+(
+playerno int primary key auto_increment,
+club varchar(20),
+playernm varchar(40),
+position varchar(20),
+country varchar(20)
+);
+
+
+Arsenal
+-----------
+insert into plteams(club,playernm,position,country) values('Arsenal','Pierre Emerick Aubameyang','forward','Gabon');
+insert into plteams(club,playernm,position,country) values('Arsenal','Shkodran Mustafi','defender','Germany');
+insert into plteams(club,playernm,position,country) values('Arsenal','Mesut Ozil','midfielder','Germnay');
+insert into plteams(club,playernm,position,country) values('Arsenal','Nicolas Pepe','forward','CoteDIvoire');
+insert into plteams(club,playernm,position,country) values('Arsenal','David Luiz','defender','Brazil');
+
+
+Chelsea
+----------
+insert into plteams(club,playernm,position,country) values('Chelsea','Kepa Arrizabalaga','goalkeeper','Spain');
+
+insert into plteams(club,playernm,position,country) values('Chelsea','Marcos Alonso','defender','Spain');
+insert into plteams(club,playernm,position,country) values('Chelsea','Cesar Azpilicueta','defender','Spain');
+insert into plteams(club,playernm,position,country) values('Chelsea','Christian Pulisic','midfielder','USA');
+insert into plteams(club,playernm,position,country) values('Chelsea','Mason Mount','midfielder','England');
+
+
+Liverpool
+------------
+insert into plteams(club,playernm,position,country) values('Liverpool','Mohamed Salah','forward','Egypt');
+insert into plteams(club,playernm,position,country) values('Liverpool','Virgil Van Dijk','defender','Netherlands');
+insert into plteams(club,playernm,position,country) values('Liverpool','Trent Alexander Arnold','defender','England');
+insert into plteams(club,playernm,position,country) values('Liverpool','Sadio Mane','forward','Senegal');
+insert into plteams(club,playernm,position,country) values('Liverpool','Roberto Firmino','forward','Brazil');
+
+
+Tottenham
+-------------
+insert into plteams(club,playernm,position,country) values('Tottenham','Hugo Lloris','Goalkeeper','France');
+insert into plteams(club,playernm,position,country) values('Tottenham','Lucas Moura','midfielder','Brazil');
+insert into plteams(club,playernm,position,country) values('Tottenham','Eric Dier','midfielder','England');
+insert into plteams(club,playernm,position,country) values('Tottenham','Son Heung Min','forward','South Korea');
+insert into plteams(club,playernm,position,country) values('Tottenham','Harry Kane','forward','England');
+
+
+ManchesterCity
+---------------
+insert into plteams(club,playernm,position,country) values('ManchesterCity','Kevin De Bruyne','midfielder','Belgium');
+insert into plteams(club,playernm,position,country) values('ManchesterCity','Raheem Sterling','forward','England');
+insert into plteams(club,playernm,position,country) values('ManchesterCity','Gabriel Jesus','forward','Brazil');
+insert into plteams(club,playernm,position,country) values('ManchesterCity','Sergio Aguero','forward','Argentina');
+insert into plteams(club,playernm,position,country) values('ManchesterCity','Bernardo Silva','midfielder','Portugal');
+
+
+
+
+

@@ -1,0 +1,34 @@
+Steps to create Struts application
+-----------------------------------
+
+1. Go to Apache Struts website and download all required dependencies
+2. Create a Dynamic Web application in Eclipse
+3. Add all the dependencies to application thru java build path option
+
+4. Open web.xml file from WebContent->WEB-INF
+5. Add servlet mapping filter entries to it
+
+6. Create a request form in the WebContent directory with extension jsp/html
+7. Make sure names of the controls match with properties of the upcoming processing bean
+8. Set some processing flag in action attribute of form
+
+9. Add a package to place ActionBeans (mybeans) and create an Action Bean into it. e.g. LoginAction
+10. Create properties inside bean, instantiate them in the constructor and generate setters and getters for all properties.
+11. create a function inside Action Bean class returning String result and having name "execute".
+12. Add some business logic to execute function.
+13. Optionally you can take help of other packages and their classes for completing the processing
+
+14. in src folder add struts controller configuration file with name struts.xml and add required redirections into it.
+
+
+
+
+
+
+
+
+
+
+
+
+
